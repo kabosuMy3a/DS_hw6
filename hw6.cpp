@@ -7,8 +7,11 @@ int main(){
 
 	Converter * conv = new Converter();
 
+	string fileName ;
+	getline(cin,fileName);
 
-	cout << "View" << endl;
+	conv->Read(fileName);
+	conv->Print();
 
 	delete conv ;
 

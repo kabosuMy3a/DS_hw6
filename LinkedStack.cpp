@@ -33,12 +33,20 @@ string LinkedStack::pop(){
 
 	list_stack * del = new list_stack();
 	
+	if(isEmpty()==true) return string(); 
+
 	e = top->IdNameEmail ;
 	del = top;
 	top = top->link ;	
 	delete del ;
 	return e; 
 	
+}
+
+bool LinkedStack::isEmpty(){
+
+	return(top==0x0);
+
 }
 
 

@@ -19,7 +19,8 @@ class Converter{
 	
 		Converter() ;
 		~Converter() ;
-		void Read() ;
+		void Read(string fileName) ;
+		void SwapNameId();
 		void Print() ;
 	
 

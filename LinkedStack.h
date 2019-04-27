@@ -25,6 +25,7 @@ class LinkedStack{
 		~LinkedStack();
 		void push(string e);
 		string pop();
+		bool isEmpty();
 
 
 
