@@ -4,8 +4,7 @@
 LinkedStack::LinkedStack(){
 
 	top = new list_stack() ;
-	top->IdNameEmail = "";
-	top->link = 0x0 ;
+	top = 0x0;
 
 }
 
