@@ -1,9 +1,9 @@
 CXX = g++
 CXXFLAGS =
 TARGETS = hw6
-TARGETS2 = testForStack
-OBJS = Stack.o Calculator.o hw5.cpp
-OBJS2 = testForStack.cpp
+TARGETS2 = 
+OBJS = LinkedStack.o Converter.o default.h hw6.cpp
+OBJS2 = 
 
 
 all : $(TARGETS) $(TARGETS2)
@@ -23,5 +23,5 @@ $(TARGETS2) : $(OBJS2)
 
 
 clean :
-	rm *.o hw6 testForStack
+	rm *.o hw6
 

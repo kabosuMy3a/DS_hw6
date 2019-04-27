@@ -1,0 +1,23 @@
+linked stack/
+name, id, email -> id, name, email ;
+
+
+linkedstack's element is string
+in Read method{
+
+
+
+그냥 여기서 토크나이즈 해서 바꾸자
+
+처음 들어가면 ;
+마지막에 저절로 안될 것 같긴함. 
+
+
+}
+
+
+Print {
+
+	pop until 0x0
+}
+
