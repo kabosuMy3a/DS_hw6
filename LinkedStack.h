@@ -23,6 +23,7 @@ class LinkedStack{
 
 		LinkedStack();
 		~LinkedStack();
+		void removeNode(list_stack * e);
 		void push(string e);
 		string pop();
 		bool isEmpty();

@@ -11,7 +11,21 @@ LinkedStack::LinkedStack(){
 
 LinkedStack::~LinkedStack(){
 
-	delete top ;
+	if (top!= 0x0) removeNode(top);
+	
+}
+
+void LinkedStack::removeNode(list_stack * e){
+
+	if (e->link!=0x0) {
+	
+		removeNode(e->link) ;
+		
+	}
+
+	delete e; 
+	
+
 }
 
 void LinkedStack::push(string e){
