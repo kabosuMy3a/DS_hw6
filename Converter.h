@@ -20,7 +20,8 @@ class Converter{
 		Converter() ;
 		~Converter() ;
 		void Read(string fileName) ;
-		void SwapNameId();
+		string SwapNameId(string inputStr);
+		char* trim(char * s) ;
 		void Print() ;
 	
 
